@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* TITLE: GetinFormed
+AUTHOR: Farhan Qureshi
+Date Created: November 25 2019
+ */
+body {
+  background-color: red;
+
+  font-family: "Arial Black", Gadget, sans-serif
+
+  	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+fieldset {
+	border-color:black;
+}
+
+select {
+   background: #black;
+   width: 280px;
+
+   line-height: 10;
+   border: 0;
+   border-radius: 0;
+}
+
+
+form {
+  text-align: center;
+   margin-left:auto;
+   margin-right:auto;
+   width:975px;
+   display: inline;
+}
+
+.label{ font-size: 18px;
+   font-weight: bold;}

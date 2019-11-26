@@ -1,0 +1,94 @@
+<!--
+    TITLE: GetinFormed
+    AUTHOR: Farhan Qureshi
+		Date Created: November 25 2019
+-->
+<!doctype html>
+<html lang="EN" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>GetinFormed</title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<h1>IUPUI Student Organization Form</h1>
+<form id="instrumentalForm" method="post">
+
+	<!--
+	Input
+	-->
+	<p>Email: <input type="text" name="email"></p>
+	<p>Subject: <input type="text" name="subject"></p>
+
+	<!--
+	Radio buttons for student or teacher
+	-->
+	<fieldset>
+		<legend><div class="label">I am a:</div></legend>
+		<input type="radio" name="ima" value="Teacher">Teacher<br>
+		<input type="radio" name="ima" value="Student">Student
+		<p>Other: <input type="text" name="ima"></p>
+	</fieldset>
+
+
+	<div class="label">
+		<p>
+		How did you hear about our website?
+	</div>
+
+		<!--
+	drop down menu
+		-->
+		<select name="hear">
+			<option value="Search Engine">Search Engine</option>
+			<option value="The Den">The Den</option>
+			<option value="School of Science">School of Science</option>
+			<option value="School of Liberal Arts">School of Liberal Arts</option>
+			<option value="University College">University College</option>
+			<option value="Other">Other</option>
+		</select><br>
+
+
+	<!--
+	Check boxes
+	-->
+
+	<fieldset>
+	<legend>
+		<div class="label">I am interested in:<br>
+	(check all that apply)
+		</div>
+  </legend>
+		<input type="checkbox" name="interest" value="STEM"> STEM <br>
+		<input type="checkbox" name="interest" value="Pre Proffessonial">Pre Proffessonial <br>
+		<input type="checkbox" name="interest" value="Law"> Law <br>
+		<input type="checkbox" name="interest" value="Other Services"> Other Services <br>
+
+	</fieldset>
+
+
+	<!--
+	Text Field for free response or suggestions
+	-->
+
+	<div class="label"><p>Please provide additional information about your inquiry:</p> </div><br>
+		<textarea name="commute" id="commute" rows="5" cols="50"></textarea>
+
+
+	<!--
+	Submit
+	-->
+		<input type="submit" value="Send">
+
+		<!--
+	Clear button
+	-->
+		<input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
